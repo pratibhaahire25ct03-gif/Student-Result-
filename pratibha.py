@@ -16,9 +16,9 @@ def get_marks(sub):
             if 0 <= m <= 100:
                 return m
             else:
-                print(" 0-100 madhech tak!")
+                print("Please enter only numbers between 0-100!")
         except:
-            print(" Fakt number tak!")
+            print("Enter only Numbers!")
 
 def add_result():
     roll_num = input("Enter Roll No: ")
@@ -62,7 +62,7 @@ def get_result():
             next(reader)
             for row in reader:
                 if row[0] == roll:
-                    print("\n--- Result Mil Gaya ---")
+                    print("\n--- Result Found---")
                     print(f"Roll No: {row[0]}")
                     print(f"Name: {row[1]}")
                     print(f"Course: {row[2]}")
@@ -89,9 +89,9 @@ def show_all_data():
 
 while True:
     menu()
-    ch = input("Choice tak: ")
+    ch = input("Enter Choice: ")
     if ch == '1':
-        n = int(input("Enter number of students: "))
+        n = int(input("How many students information do you want to add:"))
         for i in range(n):
             print(f"\n--- Student {i+1}/{n} ---")
             marks, course, roll_num, name = add_result()
@@ -101,7 +101,7 @@ while True:
     elif ch == '3':
         show_all_data()
     elif ch == '4':
-        print("Bye!")
+        print("Bye!!")
         break
     else:
         print("Wrong choice!")
