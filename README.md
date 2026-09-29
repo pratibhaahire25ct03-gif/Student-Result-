@@ -49,3 +49,4 @@ IndiaAI Mission - 2026 V1.0 Project of IBASE
 
 [Watch full code explanation video]
 https://drive.google.com/file/d/1DvXGSWRRzrazP2uvJyH4xMD052yzgfk/view?usp=drivesdk
+https://youtube.com/shorts/uH0h6ZfX_IQ?si=5RLM5kaMTVSv7gz9
